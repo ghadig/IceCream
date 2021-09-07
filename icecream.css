@@ -1,0 +1,42 @@
+ body{
+ 
+ margin:0;
+ padding:0;
+ background:  #0d1730;
+
+ }
+
+ .cream {
+  background-color:  #ffbaba ;
+  width: 120px;
+  height: 130px;
+  border-radius: 100%;
+  position: relative;
+  margin-left:600;
+  margin-right:700;
+  margin-top:150;
+	  
+}
+
+.cream::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  height: 50px;
+  background:  #ffbaba ;
+  width: 117px;
+  border-radius: 100%;
+  z-index: 2;
+  
+}
+.cone {
+      width: 0;
+      height: 0;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      border-top: 180px solid #b37a28;
+      margin-left:610;
+      margin-right:400;
+      margin-top:5;
+}
+
